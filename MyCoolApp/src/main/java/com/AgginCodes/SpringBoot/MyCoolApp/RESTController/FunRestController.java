@@ -14,4 +14,19 @@ public class FunRestController {
 
     // expose the get request of "/" that return hello world
 
+    // expose a new endpoint for "workout"
+    @GetMapping("/workout")
+    public static String getDailyWorkout(){
+        return "Be IRONMan";
+    }
+
+    // expose a new endpoint for "workout"
+    @GetMapping("/workoutMore")
+    public static String getDailyWorkoutMore(){
+        return "IRONMan";
+    }
+
+
 }
+
+
