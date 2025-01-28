@@ -21,9 +21,9 @@ public class FunRestController {
     }
 
     // expose a new endpoint for "workout"
-    @GetMapping("/workoutMore")
+    @GetMapping("/workoutMore1")
     public static String getDailyWorkoutMore(){
-        return "IRONMan";
+        return "IRONMan1";
     }
 
 
